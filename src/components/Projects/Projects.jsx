@@ -26,8 +26,9 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
-          {projects.map((project) => {
+          <Title title="Works" />
+          Coming soon...
+          {/* {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
             return (
@@ -109,7 +110,7 @@ const Projects = () => {
                 </Col>
               </Row>
             );
-          })}
+          })} */}
         </div>
       </Container>
     </section>
