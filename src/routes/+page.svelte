@@ -280,8 +280,21 @@
 					</li></a
 				>
 				<span class="font-light text-white pl-4">
-					Language: Hungarian | Released: 2021 December</span
+					Language: Hungarian | Released: 2022 December</span
 				>
+
+				<a
+					class="text-blue-400 hover:text-blue-800"
+					href="https://24.hu/tech/2021/09/30/web-summit-magyar-startup-dyrector-io/"
+					target="_blank"
+					><li class="mt-4">
+						Magyar startup is lesz a világ egyik legnagyobb technológiai rendezvényén
+					</li></a
+				>
+				<span class="font-light text-white pl-4">
+					Language: Hungarian | Released: 2021 September</span
+				>
+
 				<a
 					class="text-blue-400 hover:text-blue-800"
 					href="https://u-szeged.hu/sztehirek/2019-november/otletversenyt-tartottak"
