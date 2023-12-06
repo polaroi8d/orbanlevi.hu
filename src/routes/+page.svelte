@@ -11,24 +11,28 @@
 		</div>
 		<div class="lg:w-4/5">
 			<p>
-				I'm a software engineer / product manager from Hungary. Currently working on
-				<a class="font-bold" href="https://github.com/dyrector-io/dyrectorio" target="_blank"
-					>dyrector.io</a
-				>
-				which is an open-source self-hosted container management platform. Id consectetur quis commodo
-				minim labore excepteur in. Do nostrud fugiat nostrud adipisicing cillum aliqua duis do anim est
-				labore enim magna. Reprehenderit dolor cupidatat nisi labore. Duis ea ea officia commodo do mollit.
-				Deserunt aute esse aute magna ut in esse deserunt ex elit. Incididunt irure labore velit voluptate
-				deserunt nostrud aute. Exercitation ut proident est aliquip consectetur.
+				I am a software developer and product manager from Hungary. Currently, I work as a
+				co-founder at dyrector.io. As a co-founder, my daily tasks fall somewhere on the scale
+				between an engineering manager and a product manager. Based on my previous experiences, I
+				have a more backend-oriented development background. I have worked on large enterprise
+				systems where we used Java and the Spring Boot framework. After that, I started working more
+				on the product side, managing multiple projects as a product manager who tries to bring the
+				whole project together, working closely with developers and designers.
 			</p>
 			<p class="pt-2">
-				Cillum labore in commodo non proident ullamco. In laborum velit pariatur elit qui ad eu
-				nulla qui eiusmod ullamco laborum. Pariatur laborum ex eiusmod ad exercitation consectetur
-				consequat cillum eiusmod laborum cupidatat ex. Irure incididunt eu consequat consequat
-				proident minim sint nisi minim. Cupidatat tempor esse aliqua. Ipsum sit ex consequat in in
-				enim laboris laborum. Adipisicing deserunt ad ea nisi cupidatat consectetur id pariatur
-				mollit duis enim.
+				Due to my experiences, I have been able to contribute to both sides with actual work when
+				needed. I have generally worked in smaller companies, so the roles were often blurred, and
+				as a proactive person, I always approached tasks with the goal of solving them as quickly
+				and as qualitatively as possible. Therefore, I have experience in many aspects and have seen
+				a lot.
 			</p>
+			<p class="pt-2">
+				In recent years, I have also been close to cloud technologies, mainly handling cloud tasks
+				in Azure for large English clients, but I am also familiar with AWS and GCP. I enjoy
+				creating new things, solving problems, and working with people. This led me to identify
+				myself more as an Engineering Manager today beside that I'm still love coding. 😎
+			</p>
+
 			<div class="flex gap-3 mt-4">
 				<a href="https://github.com/polaroi8d" target="_blank"
 					><img class="w-8" src="social/logo-github.svg" alt="Github profile link" /></a
@@ -132,9 +136,10 @@
 					Age-group Winner @ II. SWIM&RUN - <span class="font-thin">2023 october</span>
 				</li>
 				<p class="text-gray-400">
-					What is SWIM&RUN competition? To provide an opportunity for the general population and especially families to engage in
-					sports, encourage them to adopt a healthy lifestyle, and involve the recently renovated
-					Maty-éri Olympic Center in recreational sports events in recent years.
+					What is SWIM&RUN competition? To provide an opportunity for the general population and
+					especially families to engage in sports, encourage them to adopt a healthy lifestyle, and
+					involve the recently renovated Maty-éri Olympic Center in recreational sports events in
+					recent years.
 				</p>
 			</ul>
 		</div>
@@ -144,10 +149,14 @@
 		<h2 class="text-2xl my-4">Projects</h2>
 		<div class="flex flex-wrap gap-4 justify-center">
 			<ProjectComponent
-				projectName="XOR Quiz"
+				projectName="XOR CNCF Quiz"
 				date="2022"
-				description="XOR Quiz is a quiz where you have to guess the CNCF project based on its value proposition."
-				skills="Svelte, Typescript"
+				description="XOR Quiz is a quiz where you have to guess the CNCF project based on its value proposition.
+				In the CNCF, each project has a rather elusive one-liner, making it challenging to figure out what the
+				project actually does. That's why a colleague and I created a quiz where you have to guess the project
+				based on its one-liner and a couple of hints. The plan was to do it overnight, so we started around noon
+				on a weekend and had it done and lunch by the next morning. Obviously, the whole thing was a joke."
+				skills="Svelte, Typescript, TailwindCSS, Product Management"
 			>
 				<div>
 					<span class="font-semibold text-gray-400">Promotion page:</span>
@@ -160,8 +169,11 @@
 			<ProjectComponent
 				projectName="Barbacoa"
 				date="2021"
-				description="Laborum consequat quis ipsum in ullamco fugiat do non veniam esse ad excepteur. Lorem proident nisi exercitation elit esse exercitation dolore ex non dolore id nisi exercitation cillum. Consectetur amet id ipsum voluptate Lorem velit culpa est anim aliquip in cupidatat duis. Commodo voluptate proident nostrud. Eu tempor nisi culpa veniam cillum dolore reprehenderit non id fugiat. Tempor culpa ullamco tempor eu proident quis aliquip reprehenderit anim enim. Labore duis duis duis reprehenderit quis fugiat consectetur qui laboris dolore magna qui."
-				skills="C++"
+				description="The Barbacoa is an application designed to assist chefs and hobbyists during BBQ cooking.
+				We developed the application for a festival where we tried to validate the product's legitimacy.
+				My task involves the development of the product design, brainstorming about additional features, and, of course
+				creating the UI for the application."
+				skills="Product Management, Design, UX/UI, Figma"
 			>
 				<div>
 					<span class="font-semibold text-gray-400">Design:</span>
@@ -171,34 +183,65 @@
 				</div>
 			</ProjectComponent>
 
-
 			<ProjectComponent
 				projectName="Flamny"
 				date="2021"
-				description="Laborum consequat quis ipsum in ullamco fugiat do non veniam esse ad excepteur. Lorem proident nisi exercitation elit esse exercitation dolore ex non dolore id nisi exercitation cillum. Consectetur amet id ipsum voluptate Lorem velit culpa est anim aliquip in cupidatat duis. Commodo voluptate proident nostrud. Eu tempor nisi culpa veniam cillum dolore reprehenderit non id fugiat. Tempor culpa ullamco tempor eu proident quis aliquip reprehenderit anim enim. Labore duis duis duis reprehenderit quis fugiat consectetur qui laboris dolore magna qui."
-				skills="C++"
+				description="The idea for the Flamny application originated from a casual conversation among friends. The purpose
+				of the application was to simplify cooking-related tasks, including shopping and administrative matters.
+				We developed the application with friends, and my responsibilities included designing the interfaces and writing backend code.
+				Although we later validated the application, unfortunately, we didn't achieve a strong product-market fit,
+				leading us to discontinue the development."
+				skills="Typescript, NodeJS, NestJS, Prisma, Gitlab CICD, Product Design, Figma"
 			>
-      <div>
-        <span class="font-semibold text-gray-400">Landing page:</span>
-        <a href="https://flamny.hypesync.io/" target="_blank"
-          >flamny.hypesync.io</a
-        >
-      </div>
-    </ProjectComponent>
+				<div>
+					<span class="font-semibold text-gray-400">Landing page:</span>
+					<a href="https://flamny.hypesync.io/" target="_blank">flamny.hypesync.io</a>
+				</div>
+			</ProjectComponent>
 
 			<ProjectComponent
 				projectName="Helios Platform"
 				date="2020"
-				description="Laborum consequat quis ipsum in ullamco fugiat do non veniam esse ad excepteur. Lorem proident nisi exercitation elit esse exercitation dolore ex non dolore id nisi exercitation cillum. Consectetur amet id ipsum voluptate Lorem velit culpa est anim aliquip in cupidatat duis. Commodo voluptate proident nostrud. Eu tempor nisi culpa veniam cillum dolore reprehenderit non id fugiat. Tempor culpa ullamco tempor eu proident quis aliquip reprehenderit anim enim. Labore duis duis duis reprehenderit quis fugiat consectetur qui laboris dolore magna qui."
-				skills="C++"
-			/>
+				description="Helios is an application framework that helps enterprises to manage all of their business applications
+				in one place promptly. My task is to collaboratively work with the stakeholders and developers to design the interfaces,
+				planning to make the application as user-friendly and easy to use as possible.We completed the project through the Sunilium
+				company, and it has been in daily use since then, successfully sold to multiple clients. "
+				skills="Product Management, Product Owner, Figma"
+			>
+				<div>
+					<span class="font-semibold text-gray-400">Link:</span>
+					<a href="https://sunilium.com/docs/Helios_Platform.pdf" target="_blank"
+						>Introductionary Document</a
+					>
+				</div>
+			</ProjectComponent>
+
+			<ProjectComponent
+				projectName="Parkela"
+				date="2019"
+				description="Parkela is designed to solve a parking system, where two applications were designed, and I participated as a
+				Product Manager in both. One of them is Parkela City, which is a city parking facilitation application that I designed.
+				The project included a parking barrier, the opening and closing of which were managed through the application, allowing
+				users to reserve specific parking spaces in advance."
+				skills="Design Thinking, Product Management, Leadership, Figma, UX/UI"
+			>
+				<div>
+					<span class="font-semibold text-gray-400">Design:</span>
+					<a href="https://dribbble.com/shots/23193559-Parkela-Mobile-Application" target="_blank"
+						>Dribble Project</a
+					>
+				</div>
+			</ProjectComponent>
 
 			<ProjectComponent
 				projectName="MyAux"
 				date="2018"
-				description="MyAux is a Q&A mobile app with income opportunity. Change your world by using your
-        phone. My responsibility was to design the UX & UI for the mobile app and show the path by the design. "
-				skills="C++"
+				description="MyAux is a Q&A mobile app with income opportunity.
+				The application aimed to address the gap that exists where there are experts in various fields,
+				but it's difficult to reach them. Through the application, users could search for and connect with knowledgeable individuals in different domains,
+				asking them questions. Experts could earn money by providing answers.
+				My task was to develop the product in close collaboration with the owners and continuously iterate on the design."
+				skills="Design, UX/UI, Sketch, Adobe XD"
 			/>
 		</div>
 	</div>
@@ -297,6 +340,53 @@
 							>Strava</a
 						> profile.
 					</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="my-16">
+		<h2 class="text-2xl">Landing pages</h2>
+		<p class="text-gray-400 mb-4">Landing pages that I made or contributed to and still online.</p>
+		<div class="">
+			<ul class="list-disc ml-8">
+				<li>
+					<a href="https://zenoazurben.hu" target="_blank">zenoazurben.hu</a>
+				</li>
+				<li>
+					<a href="https://zenoabalatonban.hu" target="_blank">zenoabalatonban.hu</a>
+				</li>
+				<li>
+					<a href="https://eletmodtanacsadas.eu" target="_blank">eletmodtanacsadas.eu</a>
+				</li>
+				<li>
+					<a href="https://sunilium.com" target="_blank">sunilium.com</a>
+				</li>
+				<li>
+					<a href="https://gretilevi.hu/" target="_blank">gretilevi.hu</a>
+				</li>
+				<li>
+					<a href="https://erzsebetvendeghazmorahalom.hu/" target="_blank"
+						>erzsebetvendeghazmorahalom.hu</a
+					>
+				</li>
+				<li>
+					<a href="https://parkela.net" target="_blank">parkela.net</a>
+				</li>
+				<li>
+					<a href="https://dyrectorio.com" target="_blank">dyrectorio.com</a>
+				</li>
+				<li>
+					<a href="https://tripela.net" target="_blank">tripela.net</a>
+				</li>
+				<li>
+					<a href="https://kontroll-labor.hu" target="_blank">kontroll-labor.hu</a>
+				</li>
+				<li>
+					<a href="https://szepafa.hu" target="_blank">szepafa.hu</a>
+				</li>
+				<li>
+					<a href="https://vlspedtrans.hu" target="_blank">vlspedtrans.hu</a>
 				</li>
 			</ul>
 		</div>
