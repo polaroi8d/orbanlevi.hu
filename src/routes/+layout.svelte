@@ -10,6 +10,7 @@
 	:global(body) {
 		@apply bg-gradient-to-r from-gray-900 to-gray-800;
 		@apply text-white;
+		@apply max-w-7xl mx-auto;
 	}
 
 	:global(a) {
