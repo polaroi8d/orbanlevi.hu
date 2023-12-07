@@ -139,7 +139,7 @@
 					What is SWIM&RUN competition? To provide an opportunity for the general population and
 					especially families to engage in sports, encourage them to adopt a healthy lifestyle, and
 					involve the recently renovated Maty-éri Olympic Center in recreational sports events in
-					recent years.
+					recent years. The competition was 500m swim and 5km run, my time was 00:29:34.
 				</p>
 			</ul>
 		</div>
