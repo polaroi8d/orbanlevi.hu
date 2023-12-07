@@ -259,7 +259,7 @@
 					</li></a
 				>
 				<span class="font-light text-white pl-4">
-					Language: Hungarian | Released: 2023 October</span
+					Podcast | Language: Hungarian | Released: 2023 October</span
 				>
 				<a
 					class="text-blue-400 hover:text-blue-800"
@@ -270,7 +270,7 @@
 						filmkészítéssel" - Orbán Levente @ dyrector.io
 					</li></a
 				>
-				<span class="font-light text-white pl-4"> Language: Hungarian | Released: 2023 May</span>
+				<span class="font-light text-white pl-4"> Podcast | Language: Hungarian | Released: 2023 May</span>
 				<a
 					class="text-blue-400 hover:text-blue-800"
 					href="https://www.youtube.com/watch?v=XrTYFEXsguo"
@@ -280,7 +280,16 @@
 					</li></a
 				>
 				<span class="font-light text-white pl-4">
-					Language: Hungarian | Released: 2022 December</span
+					Podcast | Language: Hungarian | Released: 2022 December</span
+				>
+
+				<a
+					class="text-blue-400 hover:text-blue-800"
+					href="https://www.yumpu.com/hu/document/read/66027546/computerworld-magazin-20211201-lii-evfolyam-23-szam/16"
+					target="_blank"><li class="mt-4">ComputerWorld - Egyszerűsítés a felhőben</li></a
+				>
+				<span class="font-light text-white pl-4">
+					Article | Language: Hungarian | Released: 2021 December</span
 				>
 
 				<a
@@ -292,7 +301,7 @@
 					</li></a
 				>
 				<span class="font-light text-white pl-4">
-					Language: Hungarian | Released: 2021 September</span
+					Article | Language: Hungarian | Released: 2021 September</span
 				>
 
 				<a
@@ -301,7 +310,7 @@
 					target="_blank"><li class="mt-4">Ötletversenyt tartottak a szegedi egyetemen</li></a
 				>
 				<span class="font-light text-white pl-4">
-					Language: Hungarian | Released: 2019 November</span
+					Article | Language: Hungarian | Released: 2019 November</span
 				>
 			</ul>
 		</div>
