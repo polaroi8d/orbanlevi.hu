@@ -30,7 +30,7 @@
 				In recent years, I have also been close to cloud technologies, mainly handling cloud tasks
 				in Azure for large English clients, but I am also familiar with AWS and GCP. I enjoy
 				creating new things, solving problems, and working with people. This led me to identify
-				myself more as an Engineering Manager today beside that I'm still love coding. 😎
+				myself more as an Engineering Manager today beside that I'm still love coding.
 			</p>
 
 			<div class="flex gap-3 mt-4">
@@ -57,13 +57,8 @@
 			position="Co-founder"
 			companyName="dyrector.io"
 			companyUrl="https://dyrectorio.com"
-			description="My responsibilities are to communicate effectively across teams to create alignment between
-    design, engineering and customers. Evaluate user feedback and improvement areas to identify
-    new feature opportunities that will guide our roadmap. Own product delivery from initial
-    concept through design, launch, and customer adoption. Responsible for all aspects of
-    technology product development including discovery, requirements gathering, development, and
-    implementation of features."
-			skills="team management, fundraising, product management, cloud, customer, sales, coding"
+			description="As a co-founder at dyrector.io, my role involved effective cross-team communication to align design, engineering, and customer perspectives. I evaluated user feedback, identifying areas for improvement and discovering new feature opportunities. Overseeing product delivery from concept to launch, I took ownership of all aspects of technology product development, from initial discovery to feature implementation."
+			skills="engineering and team management, fundraising, product management, cloud (mainly Azure), kubernetes, customers, tech decisions, open source, operativ stuffs"
 			dateIntervall="2020 december - present"
 		/>
 
@@ -72,8 +67,8 @@
 			position="Product Manager"
 			companyName="Sunilium"
 			companyUrl="https://sunilium.com"
-			description="Responsible for managing and guiding a product through its entire life cycle, conducts research to figure out what customers/end users want from a product, ensuring that the business is building the right thing. Develop an overarching product strategy, define product specifications and requirements, and guide and oversee the design, development, launch, and marketing of the product."
-			skills="product design, UI/UX, strategic thinking,  project management, business savvy"
+			description="In my role as a product manager at Sunilium, I managed products throughout their life cycle, conducting research to understand customer needs. I ensured the business focused on building the right product by developing an overarching product strategy. Defining specifications and requirements, I guided and oversaw the design, development, launch, and marketing of the product."
+			skills="product design, UI/UX, strategic thinking, product management, business savvy, figma, customers feedback, project management"
 			dateIntervall="2019 june - 2021 december"
 		/>
 
@@ -83,10 +78,7 @@
 			companyName="Bishop & Co."
 			companyUrl="https://bishop-co.com/"
 			dateIntervall="2017 june - 2020 december"
-			description="Bishop & Co. is a relatively small company in Hungary that focuses on medical projects. I
-    mainly work as a backend developer on projects such as Medipredict, using technologies like
-    Java and Spring Boot. My responsibility is to implement new features and optimize the CI/CD
-    flows in the project."
+			description="At Bishop & Co., a Hungarian company specializing in medical projects, I worked as a backend developer. Contributing to projects like Medipredict, I utilized technologies such as Java and Spring Boot. My responsibilities included implementing new features and optimizing CI/CD flows within the project."
 			skills="Java, SpringBoot, Hibernate, AWS, CI/CD, GitLab, Docker, Typescript, Node.JS, PHP"
 		/>
 
@@ -96,10 +88,18 @@
 			companyName="SZTE SED"
 			companyUrl="https://www.sed.inf.u-szeged.hu/"
 			dateIntervall="2016 january - 2017 may"
-			description="Worked on one of the greatest and fastest javascript engine, JerryScript. My responsibility
-  to make a debugger client to the engine with a senior developer."
-			skills="Embedded Engineering, C, Python, Javascript engine"
+			description="During my time as a software developer at Szte, I contributed to the development of JerryScript, one of the greatest and fastest JavaScript engines. Collaborating with a senior developer, I focused on creating a debugger client for the engine."
+			skills="Embedded Engineering, C, Python, Javascript engine, git"
 		/>
+	</div>
+
+	<div class="my-16">
+		<div class="mt-16">
+			<h2 class="text-xl my-4">TLDR;</h2>
+			<p class="text-gray-400">Regrettably, one aspect of my extensive experience throughout my career is that I consistently transitioned between various technology stacks. I worked for companies where deep knowledge wasn't crucial, but problem-solving ability was. This prevented me from gaining deep expertise. I consider myself a generalist, someone who has seen a lot, capable of examining and solving problems from multiple perspectives, even with the involvement of external help. I'm not afraid of new things; I love all aspects of IT, whether it's maintaining client relationships, solving people's problems, discussing and solving programming or infrastructure issues. </p>
+			<h4 class="pt-4 pb-2">Technologies I've used in my career 🦑</h4>
+			<p>c, javascript, typescript, java, python, golang, nodejs, php, laravel, springboot, flask, svelte, azure, gcp, aws, kubernetes, docker, github, github actions, gitlab, gitlab ci/cd, azure devops, bitbucket, jira, trello, asana, open-source, figma, adobe xd, sketch, bootstrap, scss, tailwind, netlify, vercel...</p>
+		</div>
 	</div>
 
 	<div class="my-16">
@@ -270,7 +270,9 @@
 						filmkészítéssel" - Orbán Levente @ dyrector.io
 					</li></a
 				>
-				<span class="font-light text-white pl-4"> Podcast | Language: Hungarian | Released: 2023 May</span>
+				<span class="font-light text-white pl-4">
+					Podcast | Language: Hungarian | Released: 2023 May</span
+				>
 				<a
 					class="text-blue-400 hover:text-blue-800"
 					href="https://www.youtube.com/watch?v=XrTYFEXsguo"
@@ -439,7 +441,7 @@
 		</div>
 	</div>
 
-	<div class="py-4 flex justify-end">
-		Protect the environment, this is an online CV / portfolio site, plase do not print it.
+	<div class="py-4 flex justify-end text-gray-500">
+		Protect the environment, this is an online CV / portfolio site, plase do not print it. Build with Svelte and hosting by Netlify.
 	</div>
 </div>
