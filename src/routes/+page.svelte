@@ -442,6 +442,6 @@
 	</div>
 
 	<div class="py-4 flex justify-end text-gray-500">
-		Protect the environment, this is an online CV / portfolio site, plase do not print it. Build with Svelte and hosting by Netlify.
+		Protect the environment, this is an online CV / portfolio site, please do not print it. Build with Svelte and hosting by Netlify.
 	</div>
 </div>
