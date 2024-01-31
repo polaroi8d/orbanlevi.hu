@@ -111,7 +111,8 @@
 				<li>ID V117-2012 Lifeguard - Issued by VMSZ (Water Rescue Services of Hungary)</li>
 				<li>OWD 5708-H Open Water Diver - Issued by UEF</li>
 				<li>AOWD NO-2713011130 Advanced Open Water Diver - Issued by PADI</li>
-				<li>L1 Freediver - Issued by Molchanovs</li>
+				<li>L1 Freediver - Issued by Molchanovs @ 2023</li>
+				<li>W1 Freediver - Issued by Molchanovs @ 2024</li>
 			</ul>
 		</div>
 	</div>
