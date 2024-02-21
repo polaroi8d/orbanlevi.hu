@@ -1,6 +1,14 @@
-<script>
+<script lang="ts">
 	import ExperienceComponent from '$lib/ExperienceComponent.svelte';
 	import ProjectComponent from '$lib/ProjectComponent.svelte';
+
+	let showButton = 'Hide';
+	let unshowButton = 'Show';
+	let isOpen = false;
+
+	function offExperienceToggle() {
+		isOpen = !isOpen;
+	}
 </script>
 
 <div class="mx-auto w-11/12">
@@ -93,12 +101,71 @@
 		/>
 	</div>
 
+	<div class="my-8">
+		<h2 class="text-2xl my-4">🏄🏿‍♂️ OFF Experience</h2>
+
+		{#if isOpen}
+			<button
+				class="bg-gray-600 hover:bg-gray-800 px-4 rounded-md cursor-pointer"
+				on:click={offExperienceToggle}>{showButton}</button
+			>
+		{:else}
+			<button
+				class="bg-green-600 hover:bg-green-500 px-4 rounded-md cursor-pointer"
+				on:click={offExperienceToggle}>{unshowButton}</button
+			>
+		{/if}
+
+		{#if isOpen}
+			<div class="text-gray-400">
+				<ExperienceComponent
+					logo="retro.png"
+					position="Bartender"
+					companyName="Retro Club and Tisza DOCK"
+					dateIntervall="2014 october - 2016 january"
+					description="As a bartender, I was responsible for providing excellent customer service while preparing and serving drinks to patrons. I took pride in maintaining a clean and well-stocked bar area, while also accurately processing customer orders and payments."
+					skills="serving drinks as fast as you can, night shifts, people management :) "
+				/>
+				<ExperienceComponent
+					logo="kfc.png"
+					position="Cashier"
+					companyName="KFC"
+					dateIntervall="2013 september - 2014 may"
+					description="As a KFC cashier, I provided friendly and efficient service to customers while accurately processing orders and payments. I maintained a clean work area and handled customer inquiries effectively."
+					skills="communication, stress management, multitasking, problem-solving, teamwork"
+				/>
+				<ExperienceComponent
+					logo="vmsz.png"
+					position="Lifeguard"
+					companyName="VMSZ"
+					dateIntervall="Summer of 2012, 2013 and 2014"
+					description="As a lifeguard, I actively observed and monitored patrons to ensure their safety, providing swift response to potential hazards. I also performed emergency procedures such as CPR and first aid when necessary. Additionally, I instructed swimmers of potential threats to their safety in a calm and efficient manner. Lifeguarding in every "
+					skills="leadership, emergency response, problem solving, endurance, lifesaving techniques, general first aid"
+				/>
+			</div>
+		{/if}
+	</div>
+
 	<div class="my-16">
 		<div class="mt-16">
 			<h2 class="text-xl my-4">TLDR;</h2>
-			<p class="text-gray-400">Regrettably, one aspect of my extensive experience throughout my career is that I consistently transitioned between various technology stacks. I worked for companies where deep knowledge wasn't crucial, but problem-solving ability was. This prevented me from gaining deep expertise. I consider myself a generalist, someone who has seen a lot, capable of examining and solving problems from multiple perspectives, even with the involvement of external help. I'm not afraid of new things; I love all aspects of IT, whether it's maintaining client relationships, solving people's problems, discussing and solving programming or infrastructure issues. </p>
+			<p class="text-gray-400">
+				Regrettably, one aspect of my extensive experience throughout my career is that I
+				consistently transitioned between various technology stacks. I worked for companies where
+				deep knowledge wasn't crucial, but problem-solving ability was. This prevented me from
+				gaining deep expertise. I consider myself a generalist, someone who has seen a lot, capable
+				of examining and solving problems from multiple perspectives, even with the involvement of
+				external help. I'm not afraid of new things; I love all aspects of IT, whether it's
+				maintaining client relationships, solving people's problems, discussing and solving
+				programming or infrastructure issues.
+			</p>
 			<h4 class="pt-4 pb-2">Technologies I've used in my career 🦑</h4>
-			<p>c, javascript, typescript, java, python, golang, nodejs, php, laravel, springboot, flask, svelte, azure, gcp, aws, kubernetes, docker, github, github actions, gitlab, gitlab ci/cd, azure devops, bitbucket, jira, trello, asana, open-source, figma, adobe xd, sketch, bootstrap, scss, tailwind, netlify, vercel...</p>
+			<p>
+				c, javascript, typescript, java, python, golang, nodejs, php, laravel, springboot, flask,
+				svelte, azure, gcp, aws, kubernetes, docker, github, github actions, gitlab, gitlab ci/cd,
+				azure devops, bitbucket, jira, trello, asana, open-source, figma, adobe xd, sketch,
+				bootstrap, scss, tailwind, netlify, vercel...
+			</p>
 		</div>
 	</div>
 
@@ -443,6 +510,7 @@
 	</div>
 
 	<div class="py-4 flex justify-end text-gray-500">
-		Protect the environment, this is an online CV / portfolio site, please do not print it. Build with Svelte and hosting by Netlify.
+		Protect the environment, this is an online CV / portfolio site, please do not print it. Build
+		with Svelte and hosting by Netlify.
 	</div>
 </div>

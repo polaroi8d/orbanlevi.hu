@@ -2,9 +2,9 @@
 	export let logo: string;
 	export let position: string;
 	export let companyName: string;
-	export let companyUrl: string;
+	export let companyUrl = '';
 	export let description: string;
-	export let skills: string;
+	export let skills = '';
 	export let dateIntervall: string;
 </script>
 
@@ -20,13 +20,15 @@
 			</div>
 		</div>
 	</div>
-    <div class="pt-4">
+	<div class="pt-4">
 		{description}
 	</div>
-	<div class="my-2">
-		<span class="font-semibold text-gray-400">Skills:</span>
-		{skills}
-	</div>
+	{#if skills}
+		<div class="my-2">
+			<span class="font-semibold text-gray-400">Skills:</span>
+			{skills}
+		</div>
+	{/if}
 </div>
 
 <style>
