@@ -209,6 +209,17 @@
 					involve the recently renovated Maty-éri Olympic Center in recreational sports events in
 					recent years. The competition was 500m swim and 5km run, my time was 00:29:34.
 				</p>
+				<li class="my-2 mt-8">
+					<a href="https://www.strava.com/activities/10881428988" target="_blank"
+						>2nd place @ III. Martelyi Keringo</a
+					>
+					- <span class="font-thin">2024 march</span>
+				</li>
+				<p class="text-gray-400">
+					It was a six-hour running race where we participated in teams of two. The relay strategy
+					was to switch every hour. We managed to complete a total of 70 laps, which was
+					approximately 72 kilometers in total distance.
+				</p>
 			</ul>
 		</div>
 	</div>
@@ -424,7 +435,10 @@
 					undertake to swim across the 5.2 km section between Balaton Révfülöp and Balatonboglár.
 				</p>
 				<li class="mt-4">
-					Half-marathon runner (sub 01:45:00)
+					Half-marathon runner (<a
+						href="https://www.strava.com/activities/10784434327/overview"
+						target="_blank">Personal Best 01:40:48)</a
+					>
 					<p class="text-gray-400">
 						My initial goal is to run at least 100 km per month and complete at least one
 						half-marathon every month. I'm doing it since 2022 October. You can follow me or just
