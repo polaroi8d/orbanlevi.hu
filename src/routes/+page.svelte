@@ -36,9 +36,9 @@
 			</p>
 			<p class="pt-2">
 				In recent years, I have also been close to cloud technologies, mainly handling cloud tasks
-				in Azure for large English clients, but I am also familiar with AWS and GCP. I enjoy
-				creating new things, solving problems, and working with people. This led me to identify
-				myself more as an Engineering Manager today beside that I'm still love coding.
+				in Azure for large UK client, but I am also familiar with AWS and GCP. I enjoy creating new
+				things, solving problems, and working with people. This led me to identify myself more as an
+				Engineering Manager today beside that I'm still love coding.
 			</p>
 
 			<div class="flex gap-3 mt-4">
