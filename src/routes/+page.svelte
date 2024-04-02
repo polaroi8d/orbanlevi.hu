@@ -437,13 +437,14 @@
 				<li class="mt-4">
 					Half-marathon runner (<a
 						href="https://www.strava.com/activities/10784434327/overview"
-						target="_blank">Personal Best 01:40:48)</a
+						target="_blank">Personal Best 01:37:48)</a
 					>
 					<p class="text-gray-400">
 						My initial goal is to run at least 100 km per month and complete at least one
 						half-marathon every month. I'm doing it since 2022 October. You can follow me or just
-						check my runs on my <a href="https://www.strava.com/athletes/30645198" target="_blank"
-							>Strava</a
+						check my runs on my <a
+							href="https://www.strava.com/activities/11026454769"
+							target="_blank">Strava</a
 						> profile.
 					</p>
 				</li>
