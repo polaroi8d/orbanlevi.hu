@@ -11,7 +11,7 @@
 	}
 </script>
 
-<div class="mx-auto w-11/12">
+<div class="mx-auto mx-8 md:mx-2">
 	<div class="text-3xl pt-12">Hola, me llamo Levente Orban 👋</div>
 	<div class="flex flex-col lg:flex-row mt-16">
 		<div class="lg:mr-8 mb-4 lg:mb-0 mx-auto lg:w-1/5">
@@ -226,7 +226,7 @@
 
 	<div class="my-16">
 		<h2 class="text-2xl my-4">Projects</h2>
-		<div class="flex flex-wrap gap-4 justify-center">
+		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center">
 			<ProjectComponent
 				projectName="XOR CNCF Quiz"
 				date="2022"
@@ -402,6 +402,14 @@
 		<div class="">
 			<ul class="list-disc ml-8">
 				<li class="mt-4">
+					Organizer @ <a href="https://kcdbudapest.hu/" target="_blank">KCD Budapest 2025</a>
+				</li>
+				<p class="text-gray-400">
+					KCD is a CNCF supported event that takes place in 30 cities every year. You may have
+					attended KCDs before in neighboring countries, but finally KCD is coming to Budapest for
+					us to enjoy a day together in the local cloud native community.
+				</p>
+				<li class="mt-4">
 					Organizer @ <a href="https://www.meetup.com/cloud-native-szeged/" target="_blank"
 						>Cloud Native Szeged Meetup</a
 					>
@@ -435,9 +443,11 @@
 					undertake to swim across the 5.2 km section between Balaton Révfülöp and Balatonboglár.
 				</p>
 				<li class="mt-4">
-					Half-marathon runner (<a
-						href="https://www.strava.com/activities/10784434327/overview"
-						target="_blank">Personal Best 01:37:48)</a
+					Half-marathon runner <a
+						href="https://www.strava.com/activities/12971137764/overview"
+						target="_blank"
+					>
+						>>> PB 01:33:58 @ Pace: 4:24 min/km</a
 					>
 					<p class="text-gray-400">
 						My initial goal is to run at least 100 km per month and complete at least one

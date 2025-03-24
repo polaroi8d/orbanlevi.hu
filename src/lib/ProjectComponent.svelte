@@ -5,8 +5,8 @@
 	export let skills: string;
 </script>
 
-<div class="bg-sky-950/30 rounded-sm flex flex-col w-full lg:w-5/12 p-6">
-	<div class="flex flex-row justify-between">
+<div class="bg-gray-700/10 rounded-sm w-full p-6">
+	<div class="flex justify-between">
 		<div><h3 class="text-xl font-semibold">{projectName}</h3></div>
 		<div class="text-mg font-thin relative right-4">{date}</div>
 	</div>
@@ -15,7 +15,7 @@
 		<span class="font-semibold text-gray-400">Skills:</span>
 		{skills}
 	</div>
-    <slot/>
+	<slot />
 </div>
 
 <style>
