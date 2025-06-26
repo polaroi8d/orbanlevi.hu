@@ -201,7 +201,10 @@
 					scholarship from Visegrad Fund, Hungary for outstanding digital leaders.
 				</p>
 				<li class="my-2 mt-8">
-					Age-group Winner @ II. SWIM&RUN - <span class="font-thin">2023 october</span>
+					<a href="https://www.strava.com/activities/9903405512" target="_blank"
+						>Winner @ II. SWIM&RUN</a
+					>
+					- <span class="font-thin">2023 october</span>
 				</li>
 				<p class="text-gray-400">
 					What is SWIM&RUN competition? To provide an opportunity for the general population and
@@ -219,6 +222,16 @@
 					It was a six-hour running race where we participated in teams of two. The relay strategy
 					was to switch every hour. We managed to complete a total of 70 laps, which was
 					approximately 72 kilometers in total distance.
+				</p>
+				<li class="my-2 mt-8">
+					<a href="https://www.strava.com/activities/14445163942" target="_blank"
+						>3nd place @ Triton Trail</a
+					>
+					- <span class="font-thin">2025 may</span>
+				</li>
+				<p class="text-gray-400">
+					It was a trail running race where we participated in teams of three. There was 2876m
+					elevation and 63km overall distance.
 				</p>
 			</ul>
 		</div>
@@ -473,15 +486,11 @@
 				<li>
 					<a href="https://zenoabalatonban.hu" target="_blank">zenoabalatonban.hu</a>
 				</li>
-				<li>
-					<a href="https://eletmodtanacsadas.eu" target="_blank">eletmodtanacsadas.eu</a>
-				</li>
+
 				<li>
 					<a href="https://sunilium.com" target="_blank">sunilium.com</a>
 				</li>
-				<li>
-					<a href="https://gretilevi.hu/" target="_blank">gretilevi.hu</a>
-				</li>
+
 				<li>
 					<a href="https://erzsebetvendeghazmorahalom.hu/" target="_blank"
 						>erzsebetvendeghazmorahalom.hu</a
