@@ -11,7 +11,7 @@
 	}
 </script>
 
-<div class="mx-auto mx-8 md:mx-2">
+<div class="mx-auto mx-8 md:mx-2 w-11/12 md:w-full flex flex-col">
 	<div class="text-3xl pt-12">Hola, me llamo Levente Orban 👋</div>
 	<div class="flex flex-col lg:flex-row mt-16">
 		<div class="lg:mr-8 mb-4 lg:mb-0 mx-auto lg:w-1/5">
@@ -146,8 +146,8 @@
 		{/if}
 	</div>
 
-	<div class="my-16">
-		<div class="mt-16">
+	<div class="my-8">
+		<div class="">
 			<h2 class="text-xl my-4">TLDR;</h2>
 			<p class="text-gray-400">
 				Regrettably, one aspect of my extensive experience throughout my career is that I
@@ -169,8 +169,8 @@
 		</div>
 	</div>
 
-	<div class="my-16">
-		<div class="mt-16">
+	<div class="my-8">
+		<div class="">
 			<h2 class="text-2xl my-4">Certifications</h2>
 			<ul class="list-disc ml-8">
 				<li>AZ-204 - Azure Developer Associate</li>
@@ -184,7 +184,7 @@
 		</div>
 	</div>
 
-	<div class="my-16">
+	<div class="my-8">
 		<h2 class="text-2xl my-4">Achivements</h2>
 		<div class="">
 			<ul class="list-disc ml-8">
@@ -237,7 +237,7 @@
 		</div>
 	</div>
 
-	<div class="my-16">
+	<div class="my-8">
 		<h2 class="text-2xl my-4">Projects</h2>
 		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center">
 			<ProjectComponent
@@ -338,7 +338,7 @@
 		</div>
 	</div>
 
-	<div class="my-16">
+	<div class="my-8">
 		<h2 class="text-2xl my-4">Podcasts & Articles</h2>
 		<div class="">
 			<ul class="list-disc ml-8">
@@ -410,7 +410,7 @@
 		</div>
 	</div>
 
-	<div class="my-16">
+	<div class="my-8">
 		<h2 class="text-2xl my-4">Hobbies</h2>
 		<div class="">
 			<ul class="list-disc ml-8">
@@ -475,7 +475,7 @@
 		</div>
 	</div>
 
-	<div class="my-16">
+	<div class="my-8">
 		<h2 class="text-2xl">Landing pages</h2>
 		<p class="text-gray-400 mb-4">Landing pages that I made or contributed to and still online.</p>
 		<div class="">
@@ -518,7 +518,7 @@
 		</div>
 	</div>
 
-	<div class="my-16">
+	<div class="my-8">
 		<h2 class="text-2xl my-4">Contact</h2>
 		<div class="">
 			<ul class="list-disc ml-8">
@@ -527,7 +527,7 @@
 		</div>
 	</div>
 
-	<div class="my-16">
+	<div class="my-8">
 		<h2 class="text-2xl my-4">Life</h2>
 		<div
 			class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-16 w-10/12 mx-auto"
