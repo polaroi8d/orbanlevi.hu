@@ -9,7 +9,8 @@
 	:global(body) {
 		@apply bg-gradient-to-r from-gray-900 to-gray-800;
 		@apply text-white;
-		@apply max-w-7xl mx-auto;
+		@apply max-w-5xl mx-auto;
+		font-family: 'Roboto Slab', serif;
 	}
 
 	:global(a) {

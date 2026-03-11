@@ -2,44 +2,19 @@
 	import ExperienceComponent from '$lib/ExperienceComponent.svelte';
 	import ProjectComponent from '$lib/ProjectComponent.svelte';
 
-	let showButton = 'Hide';
-	let unshowButton = 'Show';
-	let isOpen = false;
-
-	function offExperienceToggle() {
-		isOpen = !isOpen;
-	}
 </script>
 
 <div class="mx-auto mx-8 md:mx-2 w-11/12 md:w-full flex flex-col">
 	<div class="text-3xl pt-12">Hola, me llamo Levente Orban 👋</div>
-	<div class="flex flex-col lg:flex-row mt-16">
+	<div class="flex flex-col lg:flex-row lg:items-center mt-16">
 		<div class="lg:mr-8 mb-4 lg:mb-0 mx-auto lg:w-1/5">
 			<img class="" src="profile.png" alt="profile" />
 		</div>
 		<div class="lg:w-4/5">
 			<p>
-				I am a software developer and product manager from Hungary. Currently, I work as a
-				co-founder at dyrector.io. As a co-founder, my daily tasks fall somewhere on the scale
-				between an engineering manager and a product manager. Based on my previous experiences, I
-				have a more backend-oriented development background. I have worked on large enterprise
-				systems where we used Java and the Spring Boot framework. After that, I started working more
-				on the product side, managing multiple projects as a product manager who tries to bring the
-				whole project together, working closely with developers and designers.
+				Co-founder & Engineering Manager based in Hungary. I live at the intersection of product and engineering — with roots in backend development and hands-on experience in product management, cloud infrastructure, and team leadership.
 			</p>
-			<p class="pt-2">
-				Due to my experiences, I have been able to contribute to both sides with actual work when
-				needed. I have generally worked in smaller companies, so the roles were often blurred, and
-				as a proactive person, I always approached tasks with the goal of solving them as quickly
-				and as qualitatively as possible. Therefore, I have experience in many aspects and have seen
-				a lot.
-			</p>
-			<p class="pt-2">
-				In recent years, I have also been close to cloud technologies, mainly handling cloud tasks
-				in Azure for large UK client, but I am also familiar with AWS and GCP. I enjoy creating new
-				things, solving problems, and working with people. This led me to identify myself more as an
-				Engineering Manager today beside that I'm still love coding.
-			</p>
+			
 
 			<div class="flex gap-3 mt-4">
 				<a href="https://github.com/polaroi8d" target="_blank"
@@ -59,6 +34,22 @@
 	</div>
 
 	<div class="my-8">
+		<div class="">
+			<h2 class="text-xl my-4">TLDR;</h2>
+			<p class="text-gray-400">
+				Regrettably, one aspect of my extensive experience throughout my career is that I
+				consistently transitioned between various technology stacks. I worked for companies where
+				deep knowledge wasn't crucial, but problem-solving ability was. This prevented me from
+				gaining deep expertise. I consider myself a generalist, someone who has seen a lot, capable
+				of examining and solving problems from multiple perspectives, even with the involvement of
+				external help. I'm not afraid of new things; I love all aspects of IT, whether it's
+				maintaining client relationships, solving people's problems, discussing and solving
+				programming or infrastructure issues.
+			</p>
+		</div>
+	</div>
+
+	<div class="my-8">
 		<h2 class="text-2xl my-4">Experience</h2>
 		<ExperienceComponent
 			logo="dyo.png"
@@ -67,7 +58,7 @@
 			companyUrl="https://dyrectorio.com"
 			description="As a co-founder at dyrector.io, my role involved effective cross-team communication to align design, engineering, and customer perspectives. I evaluated user feedback, identifying areas for improvement and discovering new feature opportunities. Overseeing product delivery from concept to launch, I took ownership of all aspects of technology product development, from initial discovery to feature implementation."
 			skills="engineering and team management, fundraising, product management, cloud (mainly Azure), kubernetes, customers, tech decisions, open source, operativ stuffs"
-			dateIntervall="2020 december - present"
+			dateIntervall="2020 december - 2025 december"
 		/>
 
 		<ExperienceComponent
@@ -100,74 +91,7 @@
 			skills="Embedded Engineering, C, Python, Javascript engine, git"
 		/>
 	</div>
-
-	<div class="my-8">
-		<h2 class="text-2xl my-4">🏄🏿‍♂️ OFF Experience</h2>
-
-		{#if isOpen}
-			<button
-				class="bg-gray-600 hover:bg-gray-800 px-4 rounded-md cursor-pointer"
-				on:click={offExperienceToggle}>{showButton}</button
-			>
-		{:else}
-			<button
-				class="bg-green-600 hover:bg-green-500 px-4 rounded-md cursor-pointer"
-				on:click={offExperienceToggle}>{unshowButton}</button
-			>
-		{/if}
-
-		{#if isOpen}
-			<div class="text-gray-400">
-				<ExperienceComponent
-					logo="retro.png"
-					position="Bartender"
-					companyName="Retro Club and Tisza DOCK"
-					dateIntervall="2014 october - 2016 january"
-					description="As a bartender, I was responsible for providing excellent customer service while preparing and serving drinks to patrons. I took pride in maintaining a clean and well-stocked bar area, while also accurately processing customer orders and payments."
-					skills="serving drinks as fast as you can, night shifts, people management :) "
-				/>
-				<ExperienceComponent
-					logo="kfc.png"
-					position="Cashier"
-					companyName="KFC"
-					dateIntervall="2013 september - 2014 may"
-					description="As a KFC cashier, I provided friendly and efficient service to customers while accurately processing orders and payments. I maintained a clean work area and handled customer inquiries effectively."
-					skills="communication, stress management, multitasking, problem-solving, teamwork"
-				/>
-				<ExperienceComponent
-					logo="vmsz.png"
-					position="Lifeguard"
-					companyName="VMSZ"
-					dateIntervall="Summer of 2012, 2013 and 2014"
-					description="As a lifeguard, I actively observed and monitored patrons to ensure their safety, providing swift response to potential hazards. I also performed emergency procedures such as CPR and first aid when necessary. Additionally, I instructed swimmers of potential threats to their safety in a calm and efficient manner. Lifeguarding in every "
-					skills="leadership, emergency response, problem solving, endurance, lifesaving techniques, general first aid"
-				/>
-			</div>
-		{/if}
-	</div>
-
-	<div class="my-8">
-		<div class="">
-			<h2 class="text-xl my-4">TLDR;</h2>
-			<p class="text-gray-400">
-				Regrettably, one aspect of my extensive experience throughout my career is that I
-				consistently transitioned between various technology stacks. I worked for companies where
-				deep knowledge wasn't crucial, but problem-solving ability was. This prevented me from
-				gaining deep expertise. I consider myself a generalist, someone who has seen a lot, capable
-				of examining and solving problems from multiple perspectives, even with the involvement of
-				external help. I'm not afraid of new things; I love all aspects of IT, whether it's
-				maintaining client relationships, solving people's problems, discussing and solving
-				programming or infrastructure issues.
-			</p>
-			<h4 class="pt-4 pb-2">Technologies I've used in my career 🦑</h4>
-			<p>
-				c, javascript, typescript, java, python, golang, nodejs, php, laravel, springboot, flask,
-				svelte, azure, gcp, aws, kubernetes, docker, github, github actions, gitlab, gitlab ci/cd,
-				azure devops, bitbucket, jira, trello, asana, open-source, figma, adobe xd, sketch,
-				bootstrap, scss, tailwind, netlify, vercel...
-			</p>
-		</div>
-	</div>
+	
 
 	<div class="my-8">
 		<div class="">
@@ -239,7 +163,27 @@
 
 	<div class="my-8">
 		<h2 class="text-2xl my-4">Projects</h2>
-		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center">
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center">
+			<ProjectComponent
+				projectName="Cactoide"
+				date="2025"
+				description="Cactoide is a federated, mobile-first open-source RSVP platform. It's designed as an alternative to Meetup.com, Eventbrite and Partiful for small companies and groups that want a simple, self-hostable way to organize events without platform lock-in."
+				skills="Full-stack, Product Management, Open-source"
+			>
+				<div class="flex flex-col gap-1">
+					<div>
+						<span class="font-semibold text-gray-400">Code:</span>
+						<a href="https://github.com/polaroi8d/cactoide" target="_blank">github.com/polaroi8d/cactoide</a>
+					</div>
+					<div>
+						<span class="font-semibold text-gray-400">Hacker News:</span>
+						<a href="https://news.ycombinator.com/item?id=45045116" target="_blank">
+							Reached the front page"
+						</a>
+					</div>
+				</div>
+			</ProjectComponent>
+
 			<ProjectComponent
 				projectName="XOR CNCF Quiz"
 				date="2022"
@@ -415,6 +359,16 @@
 		<div class="">
 			<ul class="list-disc ml-8">
 				<li class="mt-4">
+					Founder & Organizer @
+					<a href="https://szegedsync.hu/" target="_blank">szegedsync</a>
+					
+				</li>
+				<p class="text-gray-400">
+					Szegedsync is a next generation tech meetup series in Szeged focused on real-world
+					software, product, and AI topics. We bring together local engineers, product people,
+					and tech enthusiasts for talks, workshops, and community building.
+				</p>
+				<li class="mt-4">
 					Organizer @ <a href="https://kcdbudapest.hu/" target="_blank">KCD Budapest 2025</a>
 				</li>
 				<p class="text-gray-400">
@@ -476,53 +430,10 @@
 	</div>
 
 	<div class="my-8">
-		<h2 class="text-2xl">Landing pages</h2>
-		<p class="text-gray-400 mb-4">Landing pages that I made or contributed to and still online.</p>
-		<div class="">
-			<ul class="list-disc ml-8">
-				<li>
-					<a href="https://zenoazurben.hu" target="_blank">zenoazurben.hu</a>
-				</li>
-				<li>
-					<a href="https://zenoabalatonban.hu" target="_blank">zenoabalatonban.hu</a>
-				</li>
-
-				<li>
-					<a href="https://sunilium.com" target="_blank">sunilium.com</a>
-				</li>
-
-				<li>
-					<a href="https://erzsebetvendeghazmorahalom.hu/" target="_blank"
-						>erzsebetvendeghazmorahalom.hu</a
-					>
-				</li>
-				<li>
-					<a href="https://parkela.net" target="_blank">parkela.net</a>
-				</li>
-				<li>
-					<a href="https://dyrectorio.com" target="_blank">dyrectorio.com</a>
-				</li>
-				<li>
-					<a href="https://tripela.net" target="_blank">tripela.net</a>
-				</li>
-				<li>
-					<a href="https://kontroll-labor.hu" target="_blank">kontroll-labor.hu</a>
-				</li>
-				<li>
-					<a href="https://szepafa.hu" target="_blank">szepafa.hu</a>
-				</li>
-				<li>
-					<a href="https://vlspedtrans.hu" target="_blank">vlspedtrans.hu</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-
-	<div class="my-8">
 		<h2 class="text-2xl my-4">Contact</h2>
 		<div class="">
 			<ul class="list-disc ml-8">
-				<li class="mt-4">email: leventeorb[@]gmail.com</li>
+				<li class="mt-4">leventeorb_@_gmail.com</li>
 			</ul>
 		</div>
 	</div>
