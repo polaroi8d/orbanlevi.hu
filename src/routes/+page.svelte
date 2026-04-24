@@ -58,7 +58,7 @@
 			companyUrl="https://scoliadarts.com"
 			description="Led the 0 to 1 launch of a new product line at Scolia, covering product analysis, customer feedback, team coordination, sales and marketing workflows, and first-customer acquisition. Drove international market expansion planning, represented global customer needs in product decisions, and worked cross-functionally to shape go-to-market strategy."
 			skills="technology lead, devops, product management, sales, zero to 1 product launch"
-			dateIntervall="2020 december - 2025 december"
+			dateIntervall="2026 january - 2026 may"
 		/>
 
 		<ExperienceComponent
