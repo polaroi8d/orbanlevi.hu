@@ -1,7 +1,6 @@
 <script lang="ts">
 	import ExperienceComponent from '$lib/ExperienceComponent.svelte';
 	import ProjectComponent from '$lib/ProjectComponent.svelte';
-
 </script>
 
 <div class="mx-auto mx-8 md:mx-2 w-11/12 md:w-full flex flex-col">
@@ -12,9 +11,10 @@
 		</div>
 		<div class="lg:w-4/5">
 			<p>
-				Co-founder & Engineering Manager based in Hungary. I live at the intersection of product and engineering — with roots in backend development and hands-on experience in product management, cloud infrastructure, and team leadership.
+				Exfounder based in Hungary. I live at the intersection of product and
+				engineering with roots in backend development and hands-on experience in product
+				management, cloud infrastructure, and team leadership.
 			</p>
-			
 
 			<div class="flex gap-3 mt-4">
 				<a href="https://github.com/polaroi8d" target="_blank"
@@ -52,6 +52,26 @@
 	<div class="my-8">
 		<h2 class="text-2xl my-4">Experience</h2>
 		<ExperienceComponent
+			logo="scolia-logo.png"
+			position="Technical Product Lead"
+			companyName="Scolia Technologies Ltd."
+			companyUrl="https://scoliadarts.com"
+			description="Led the 0 to 1 launch of a new product line at Scolia, covering product analysis, customer feedback, team coordination, sales and marketing workflows, and first-customer acquisition. Drove international market expansion planning, represented global customer needs in product decisions, and worked cross-functionally to shape go-to-market strategy."
+			skills="technology lead, devops, product management, sales, zero to 1 product launch"
+			dateIntervall="2020 december - 2025 december"
+		/>
+
+		<ExperienceComponent
+			logo="unicredit-logo.jpg"
+			position="Infrastructure Engineer (contract)"
+			companyName="UniCredit"
+			companyUrl="https://unicredit.com"
+			description="Helping the company to migrate to a containerized infrastructure, optimizing the CI/CD pipelines, and improving the overall infrastructure."
+			skills="containerization, kubernetes, devops, infrastructure, CICD, pipeline optimizations"
+			dateIntervall="2022 june - 2025 december"
+		/>
+
+		<ExperienceComponent
 			logo="dyo.png"
 			position="Co-founder"
 			companyName="dyrector.io"
@@ -63,7 +83,7 @@
 
 		<ExperienceComponent
 			logo="sunilium.png"
-			position="Product Manager"
+			position="Product Manager (contract)"
 			companyName="Sunilium"
 			companyUrl="https://sunilium.com"
 			description="In my role as a product manager at Sunilium, I managed products throughout their life cycle, conducting research to understand customer needs. I ensured the business focused on building the right product by developing an overarching product strategy. Defining specifications and requirements, I guided and oversaw the design, development, launch, and marketing of the product."
@@ -91,7 +111,6 @@
 			skills="Embedded Engineering, C, Python, Javascript engine, git"
 		/>
 	</div>
-	
 
 	<div class="my-8">
 		<div class="">
@@ -173,7 +192,9 @@
 				<div class="flex flex-col gap-1">
 					<div>
 						<span class="font-semibold text-gray-400">Code:</span>
-						<a href="https://github.com/polaroi8d/cactoide" target="_blank">github.com/polaroi8d/cactoide</a>
+						<a href="https://github.com/polaroi8d/cactoide" target="_blank"
+							>github.com/polaroi8d/cactoide</a
+						>
 					</div>
 					<div>
 						<span class="font-semibold text-gray-400">Hacker News:</span>
@@ -361,12 +382,11 @@
 				<li class="mt-4">
 					Founder & Organizer @
 					<a href="https://szegedsync.hu/" target="_blank">szegedsync</a>
-					
 				</li>
 				<p class="text-gray-400">
 					Szegedsync is a next generation tech meetup series in Szeged focused on real-world
-					software, product, and AI topics. We bring together local engineers, product people,
-					and tech enthusiasts for talks, workshops, and community building.
+					software, product, and AI topics. We bring together local engineers, product people, and
+					tech enthusiasts for talks, workshops, and community building.
 				</p>
 				<li class="mt-4">
 					Organizer @ <a href="https://kcdbudapest.hu/" target="_blank">KCD Budapest 2025</a>
@@ -433,7 +453,7 @@
 		<h2 class="text-2xl my-4">Contact</h2>
 		<div class="">
 			<ul class="list-disc ml-8">
-				<li class="mt-4">leventeorb_@_gmail.com</li>
+				<li class="mt-4">leventeorb[at]gmail.com</li>
 			</ul>
 		</div>
 	</div>

@@ -12,7 +12,7 @@
 	<div class="flex my-2 justify-between text-lg">
 		<div class="flex">
 			<div class="w-16">
-				<img src="companies/{logo}" alt={companyName} class="object-center" />
+				<img src="companies/{logo}" alt={companyName} class="object-center rounded-xl bg-white" />
 			</div>
 			<div class="ml-4 my-auto">
 				{position} @ <a href={companyUrl} target="_blank" class="font-bold">{companyName}</a>
