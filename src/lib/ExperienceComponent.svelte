@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let logo: string;
+	export let logo: string = '';
 	export let position: string;
 	export let companyName: string;
 	export let companyUrl = '';
@@ -11,9 +11,11 @@
 <div class="my-8">
 	<div class="flex my-2 justify-between text-lg">
 		<div class="flex">
+			{#if logo}
 			<div class="w-16">
 				<img src="companies/{logo}" alt={companyName} class="object-center rounded-xl bg-white" />
 			</div>
+		{/if}
 			<div class="ml-4 my-auto">
 				{position} @ <a href={companyUrl} target="_blank" class="font-bold">{companyName}</a>
 				<div class="text-mg font-thin">{dateIntervall}</div>
