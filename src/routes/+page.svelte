@@ -51,7 +51,7 @@
 				companyName="Sabbatical / Independent"
 				description="Deep-diving into LLM inference engineering. Hosting and serving models with vLLM, optimizing inference throughput and latency, and building a testing and benchmarking workflow around it. Running and tuning workloads on NVIDIA Spark GX10 hardware to understand the GPU and memory trade-offs of local model serving."
 				skills="vLLM, LLM inference, inference optimization, benchmarking/testing, NVIDIA Spark GX10, Python"
-				dateIntervall="2026 may - present"
+				dateIntervall="2026 may - present · 2 mos"
 			/>
 
 			<ExperienceComponent
@@ -61,7 +61,7 @@
 				companyUrl="https://scoliadarts.com"
 				description="Led a 0-to-1 launch of a new product line at Scolia Technologies. Owned the full Product Management and Technical side — architecting backend services, setting up CI/CD pipelines, and managing cloud infrastructure end to end. Worked in parallel on the product side: customer discovery, go-to-market planning, and driving first-customer acquisition and sales."
 				skills="DevOps, product, 0-to-1 launch"
-				dateIntervall="2025 september - 2026 may"
+				dateIntervall="2025 september - 2026 may · 8 mos"
 			/>
 
 			<ExperienceComponent
@@ -71,7 +71,7 @@
 				companyUrl="https://unicredit.com"
 				description="Helping the company to migrate to a containerized infrastructure, optimizing the CI/CD pipelines, and improving the overall infrastructure."
 				skills="containerization, kubernetes, devops, infrastructure, CICD, pipeline optimizations"
-				dateIntervall="2022 june - 2025 december"
+				dateIntervall="2022 june - 2025 december · 3 yrs 6 mos"
 			/>
 
 			<ExperienceComponent
@@ -81,7 +81,7 @@
 				companyUrl="https://dyrectorio.com"
 				description="As a co-founder at dyrector.io, my role involved effective cross-team communication to align design, engineering, and customer perspectives. I evaluated user feedback, identifying areas for improvement and discovering new feature opportunities. Overseeing product delivery from concept to launch, I took ownership of all aspects of technology product development, from initial discovery to feature implementation."
 				skills="engineering and team management, fundraising, product management, cloud (mainly Azure), kubernetes, customers, tech decisions, open source, operativ stuffs"
-				dateIntervall="2020 december - 2025 december"
+				dateIntervall="2020 december - 2025 december · 5 yrs"
 			/>
 
 			<ExperienceComponent
@@ -91,7 +91,7 @@
 				companyUrl="https://sunilium.com"
 				description="In my role as a product manager at Sunilium, I managed products throughout their life cycle, conducting research to understand customer needs. I ensured the business focused on building the right product by developing an overarching product strategy. Defining specifications and requirements, I guided and oversaw the design, development, launch, and marketing of the product."
 				skills="product design, UI/UX, strategic thinking, product management, business savvy, figma, customers feedback, project management"
-				dateIntervall="2019 june - 2021 december"
+				dateIntervall="2019 june - 2021 december · 2 yrs 6 mos"
 			/>
 
 			<ExperienceComponent
@@ -99,7 +99,7 @@
 				position="Software Engineer"
 				companyName="Bishop & Co."
 				companyUrl="https://bishop-co.com/"
-				dateIntervall="2017 june - 2020 december"
+				dateIntervall="2017 june - 2020 december · 3 yrs 6 mos"
 				description="At Bishop & Co., a Hungarian company specializing in medical projects, I worked as a backend developer. Contributing to projects like Medipredict, I utilized technologies such as Java and Spring Boot. My responsibilities included implementing new features and optimizing CI/CD flows within the project."
 				skills="Java, SpringBoot, Hibernate, AWS, CI/CD, GitLab, Docker, Typescript, Node.JS, PHP"
 			/>
@@ -109,7 +109,7 @@
 				position="Software Developer"
 				companyName="SZTE SED"
 				companyUrl="https://www.sed.inf.u-szeged.hu/"
-				dateIntervall="2016 january - 2017 may"
+				dateIntervall="2016 january - 2017 may · 1 yr 4 mos"
 				description="During my time as a software developer at Szte, I contributed to the development of JerryScript, one of the greatest and fastest JavaScript engines. Collaborating with a senior developer, I focused on creating a debugger client for the engine."
 				skills="Embedded Engineering, C, Python, Javascript engine, git"
 			/>

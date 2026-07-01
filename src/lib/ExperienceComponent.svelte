@@ -18,7 +18,9 @@
 		{/if}
 			<div class="ml-4 my-auto">
 				{position} @ <a href={companyUrl} target="_blank" class="font-bold">{companyName}</a>
-				<div class="text-mg font-thin">{dateIntervall}</div>
+				<div class="text-mg font-thin">
+					{dateIntervall.split(' · ')[0]}{#if dateIntervall.includes(' · ')} · <span class="font-bold">{dateIntervall.split(' · ')[1]}</span>{/if}
+				</div>
 			</div>
 		</div>
 	</div>
